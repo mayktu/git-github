@@ -146,3 +146,28 @@ git clone HTTPS/SSH DO REPOSITORIO  NOME DA PASTA
 ```
 
 
+Quando você clona de outra pessoa você não pode fazer o commit, você tem que fazer o fork para alguma organização, fazer as alterações necessarias e depois fazer um request para a pessoa.
+
+## Ramificação (Branch)
+
+É um ponteiro movél que leva a um commit
+
+**para criar um branch**
+```
+git checkout -b nomedobranch
+```
+
+**Para mostrar os branch do repositorio**
+```
+git branch 
+```
+
+**Mudando de branch** 
+```
+git checkout nomedobranch
+```
+
+**Deletando um branch**
+```
+git branch -D nomedobranch
+```
