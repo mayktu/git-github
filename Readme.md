@@ -3,6 +3,7 @@
 Baby steps on GIT and GITHUB
 
 
+
 ## Configurando o git localmente
 
 **Configurar o nome de usuario**
@@ -27,6 +28,7 @@ git config --list
 ```
 
 
+
 ## Inicializando o git e lidando com os arquivos
 
 **Dentro da pasta você para inicializar**
@@ -34,7 +36,7 @@ git config --list
 git init
 ```
 
-**mostra todos os diretorios**
+**Mostrar todos os diretorios**
 ```
 ls -la
 ```
@@ -110,8 +112,9 @@ git reset --hard
 ```
 
 
+
 ## Conectando arquivos locais com Github
-**CODIGOS PARA CONECTAR COM REPOSITORIO ONLINE**
+**Codigos para conectar com repositorio online**
 ```
 ssh-keygen -t rsa -b 4096 -C "email@email.com"
 ENTER
@@ -119,7 +122,7 @@ ENTER
 ENTER
 ```
 
-**SSH PARA COPIAR NO GITHUB**
+**SSH para copiar no Github**
 ```
 cd
 cd ~/.ssh
