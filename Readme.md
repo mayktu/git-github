@@ -135,5 +135,11 @@ git remote -v
 git push -u origin master
 ```
 
+## Contribuindo em outros repositorios
+
+**Clonando repositorio online para pasta local**
+```
+git clone HTTPS/SSH DO REPOSITORIO  NOME DA PASTA
+```
 
 
