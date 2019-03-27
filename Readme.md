@@ -3,7 +3,7 @@
 Baby steps on GIT and GITHUB
 
 <p align="center">
-<img src="git-github.jpg" width="200" alt="git+github">
+<img src="git-github.jpg" width="400" alt="git+github">
 </p>
 
 ## Configurando o git localmente
