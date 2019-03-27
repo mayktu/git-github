@@ -1,9 +1,9 @@
-# Lidando com Git e Github
+# Como trabalhar com Git e Github
 
 Baby steps on GIT and GITHUB
 
 <p align="center">
-<img src="./misc/git-github.jpg" width="450" alt="git+github">
+<img src="./misc/git-github.jpg" width="475" alt="git+github">
 </p>
 
 ## Configurando o git localmente
@@ -173,4 +173,4 @@ git checkout nomedobranch
 ```
 git branch -D nomedobranch
 ```
--
+
