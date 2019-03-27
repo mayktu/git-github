@@ -113,8 +113,7 @@ git reset --mixed
 git reset --hard
 ```
 
-
-
+  
 ## Conectando arquivos locais com Github
 **Codigos para conectar com repositorio online**
 ```
@@ -174,27 +173,30 @@ git checkout nomedobranch
 **Deletando um branch**
 ```
 git branch -D nomedobranch
+git push origin :nomedobranch
 ```
 
 **Merge - Unindo branchs**
-Pros:
-*Operação não destrutiva
+##### Pros:
+* Operação não destrutiva
 
-Contras:
-*Historico de commits poluidos
-*commit extra (pois ele so uni dois commits)
+##### Contras:
+* Historico de commits poluidos
+* commit extra (pois ele so uni dois commits)
 
 ```
 git merge nomedobranch-que-esta-nos-ramos-da-arvore
 ```
 
 **Rebase - Unindo branchs**
-Pros: 
-*Evita commmits desnecessarios
-*Historico linear
 
-Contras:
-*Perde ordem cronológica
+##### Pros: 
+* Evita commmits desnecessarios
+* Historico linear
+
+##### Contras:
+
+* Perde ordem cronológica
 
 ```
 git rebase nomedobranch-que-esta-nos-ramos-da-arvore
@@ -202,6 +204,7 @@ git rebase nomedobranch-que-esta-nos-ramos-da-arvore
 
 
 Para saber mais sobre Git branching acesse [Learn Git Branching](https://learngitbranching.js.org/)
+
 
 
 ### Gitignore
@@ -220,6 +223,7 @@ Dentro do arquivo .gitignore adiciona os tipos de arquivos que serão ignorados:
 ```
 
 [Documentação do gitignore](https://git-scm.com/docs/gitignore)
+
 [Templates para .gitignore](https://github.com/github/gitignore)
 
 
@@ -237,14 +241,30 @@ Outros comandos:
 ```
 git stash list
 git stash clear
-```
+```  
 
 
-### Criando atalhos na linha de comando
-s substituirá status
+### Criando atalhos na linha de comando  
+A letra s substituirá status
 ```
 git config --global alias.s status
 ```
 
 ### Versões com tags
+```
+git tag -a 1.0.0 -m "Lançamento de versões"
+git tag
+git push origin master --tags
+```
+Para deletar as versões:
+```
+git tag -d numerodatag
+git push origin :numerodatag
+```
 
+### Git Revert
+Apaga o que foi escrito no commit, mas não apaga o commit
+
+```
+git revert codigodocommit
+```
