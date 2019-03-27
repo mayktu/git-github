@@ -174,3 +174,48 @@ git checkout nomedobranch
 git branch -D nomedobranch
 ```
 
+**Merge - Unindo branchs**
+Pros:
+⋅⋅*Operação não destrutiva
+
+Contras:
+⋅⋅*Historico de commits poluidos
+⋅⋅*commit extra (pois ele so uni dois commits)
+
+```
+git merge nomedobranch-que-esta-nos-ramos-da-arvore
+```
+
+**Rebase - Unindo branchs**
+Pros: 
+⋅⋅*Evita commmits desnecessarios
+⋅⋅*Historico linear
+
+Contras:
+⋅⋅*Perde ordem cronológica
+
+```
+git rebase nomedobranch-que-esta-nos-ramos-da-arvore
+```
+
+
+Para saber mais sobre Git branching acesse [Learn Git Branching](https://learngitbranching.js.org/)
+
+
+## Gitignore
+
+Ignorar alguns arquivos locais
+
+```
+.gitignore
+```
+Dentro do arquivo .gitignore adiciona os tipos de arquivos que serão ignorados:
+```
+*json
+*py
+*c
+*cpp
+```
+
+[Documentação do gitignore](https://git-scm.com/docs/gitignore)
+[Templates para .gitignore](https://github.com/github/gitignore)
