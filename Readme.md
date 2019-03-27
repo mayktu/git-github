@@ -150,11 +150,13 @@ git clone HTTPS/SSH DO REPOSITORIO  NOME DA PASTA
 
 Quando você clona de outra pessoa você não pode fazer o commit, você tem que fazer o fork para alguma organização, fazer as alterações necessarias e depois fazer um request para a pessoa.
 
+
+
 ## Ramificação (Branch)
 
 É um ponteiro movél que leva a um commit
 
-**para criar um branch**
+**Para criar um branch**
 ```
 git checkout -b nomedobranch
 ```
@@ -176,11 +178,11 @@ git branch -D nomedobranch
 
 **Merge - Unindo branchs**
 Pros:
-⋅⋅*Operação não destrutiva
+*Operação não destrutiva
 
 Contras:
-⋅⋅*Historico de commits poluidos
-⋅⋅*commit extra (pois ele so uni dois commits)
+*Historico de commits poluidos
+*commit extra (pois ele so uni dois commits)
 
 ```
 git merge nomedobranch-que-esta-nos-ramos-da-arvore
@@ -188,11 +190,11 @@ git merge nomedobranch-que-esta-nos-ramos-da-arvore
 
 **Rebase - Unindo branchs**
 Pros: 
-⋅⋅*Evita commmits desnecessarios
-⋅⋅*Historico linear
+*Evita commmits desnecessarios
+*Historico linear
 
 Contras:
-⋅⋅*Perde ordem cronológica
+*Perde ordem cronológica
 
 ```
 git rebase nomedobranch-que-esta-nos-ramos-da-arvore
@@ -202,7 +204,7 @@ git rebase nomedobranch-que-esta-nos-ramos-da-arvore
 Para saber mais sobre Git branching acesse [Learn Git Branching](https://learngitbranching.js.org/)
 
 
-## Gitignore
+### Gitignore
 
 Ignorar alguns arquivos locais
 
@@ -219,3 +221,30 @@ Dentro do arquivo .gitignore adiciona os tipos de arquivos que serão ignorados:
 
 [Documentação do gitignore](https://git-scm.com/docs/gitignore)
 [Templates para .gitignore](https://github.com/github/gitignore)
+
+
+### Git Stash
+Ele guarda as modificações e aplica em outro branch
+
+```
+git stash
+```
+Entra no outro branch
+```
+git stash apply
+```
+Outros comandos:
+```
+git stash list
+git stash clear
+```
+
+
+### Criando atalhos na linha de comando
+s substituirá status
+```
+git config --global alias.s status
+```
+
+### Versões com tags
+
