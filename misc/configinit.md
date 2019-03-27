@@ -20,3 +20,7 @@ git config user.name
 ```
 git config --list 
 ```
+
+[Inicializando o git e lidando com os arquivos](https://github.com/mayktu/git-github/blob/master/misc/initgit.md)
+
+[Voltar](https://github.com/mayktu/git-github)

@@ -79,3 +79,7 @@ git reset --short
 git reset --mixed
 git reset --hard
 ```
+
+[Conectando arquivos locais com Github](https://github.com/mayktu/git-github/blob/master/misc/conecghub.md)
+
+[Voltar](https://github.com/mayktu/git-github)

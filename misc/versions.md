@@ -9,3 +9,8 @@ Para deletar as versões:
 git tag -d numerodatag
 git push origin :numerodatag
 ```
+
+
+[Git Reverse](https://github.com/mayktu/git-github/blob/master/misc/gitreverse.md)
+
+[Voltar](https://github.com/mayktu/git-github)

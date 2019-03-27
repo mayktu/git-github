@@ -52,3 +52,7 @@ git rebase nomedobranch-que-esta-nos-ramos-da-arvore
 
 Para saber mais sobre Git branching acesse [Learn Git Branching](https://learngitbranching.js.org/)
 
+
+[.gitignore](https://github.com/mayktu/git-github/blob/master/misc/gitignor.md)
+
+[Voltar](https://github.com/mayktu/git-github)

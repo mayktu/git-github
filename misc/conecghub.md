@@ -22,3 +22,7 @@ git remote
 git remote -v
 git push -u origin master
 ```
+
+[Contribuindo em outros repositorios](https://github.com/mayktu/git-github/blob/master/misc/contrib.md)
+
+[Voltar](https://github.com/mayktu/git-github)
