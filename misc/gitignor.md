@@ -13,9 +13,9 @@ Dentro do arquivo .gitignore adiciona os tipos de arquivos que serão ignorados:
 *cpp
 ```
 
-[Documentação do gitignore](https://git-scm.com/docs/gitignore)
+* [Documentação do gitignore](https://git-scm.com/docs/gitignore)
 
-[Templates para .gitignore](https://github.com/github/gitignore)
+* [Templates para .gitignore](https://github.com/github/gitignore)
 
 
 
