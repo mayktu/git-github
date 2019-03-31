@@ -8,7 +8,9 @@ git clone HTTPS/SSH DO REPOSITORIO  NOME DA PASTA
 
 Quando você clona de outra pessoa você não pode fazer o commit, você tem que fazer o fork para alguma organização, fazer as alterações necessarias e depois fazer um request para a pessoa.
 
-**GIT PULL**
+
+
+**Git pull**
 Mantem sincronizado as mudanças no repositorio com os arquivos locais, basicamente o inverso do push.
 ```
 git pull
