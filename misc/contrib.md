@@ -11,6 +11,7 @@ Quando você clona de outra pessoa você não pode fazer o commit, você tem que
 
 
 **Git pull**
+
 Mantem sincronizado as mudanças no repositorio com os arquivos locais, basicamente o inverso do push.
 ```
 git pull
