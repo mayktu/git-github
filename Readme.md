@@ -26,4 +26,4 @@ Baby steps on GIT and GITHUB
 
 9. [Versões](https://github.com/mayktu/git-github/blob/master/misc/versions.md)
 
-10. [Git Reverse](https://github.com/mayktu/git-github/blob/master/misc/gitreverse.md)
+10. [Git Reverse e Reset](https://github.com/mayktu/git-github/blob/master/misc/gitreverse.md)
