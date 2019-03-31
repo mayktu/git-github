@@ -1,8 +1,15 @@
 ### Git Revert
-Apaga o que foi escrito no commit, mas não apaga o commit
+Cria um commit desfazendo o commit desejado
 
 ```
 git revert codigodocommit
+```
+### Git Reset
+Reseta o repositorio para um determinado commit
+
+```
+git reset codigodocommit
+git reset --hard codigodocommit
 ```
 
 
