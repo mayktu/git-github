@@ -17,6 +17,32 @@ Mantem sincronizado as mudanças no repositorio com os arquivos locais, basicame
 git pull
 ```
 
+* **Manter atualizado um repositorio clonado**
+Tenha o fork em seu repositorio
+```
+git remote add upstream https://github.com/repositorioraiz/repositorioraiz.git
+```
+```
+git remote -v
+```
+```
+git pull upstream master
+```
+
+Em caso de conflito de arquivos forçar quebra pelo rebase
+```
+git pull --rebase upstream master
+```
+```
+git rebase --continue
+```
+Resolve o conflito e da o push novamente para o repositorio
+```
+git push --force origin master
+```
+
+
+
 [Ramificação (Branch)](https://github.com/mayktu/git-github/blob/master/misc/branch.md)
 
 [Voltar](https://github.com/mayktu/git-github)
