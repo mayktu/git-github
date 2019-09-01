@@ -29,7 +29,7 @@ git remote -v
 git pull upstream master
 ```
 
-* **Em caso de conflito de arquivos forçar quebra pelo rebase
+* **Em caso de conflito de arquivos forçar quebra pelo rebase**
 ```
 git pull --rebase upstream master
 ```
